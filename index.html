@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <title>Portfolio</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .card:hover {
+      box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+    }
+
+    .card {
+      margin-bottom: 30px;
+      min-height: 500px;
+      max-height: 500px;
+    }
+
+    .card-img-top {
+      max-height: 200px;
+      object-fit:cover;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar sticky-top bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#about">Christian Jose Madriaga Soriano</a>
+    </div>
+  </nav>
+
+  <section id="about" class="container mt-5">
+    </br></br>
+    <p class="h1 mb-3">About Me</p>
+    <p class="lead">
+      Hi, I'm Christian Jose M. Soriano, an I.T. Student at the University of Pangasinan (UPANG). I am passionate about
+      technology and aspire to become a software engineer. Currently immersed in the world of Information Technology, I
+      am gaining valuable skills and knowledge to pursue my dream career.
+    </p>
+  </section>
+
+  <section id="projects" class="container mt-5">
+    <p class="h1 mb-3">Projects</p>
+
+    <div class="row">
+      <div class="col-md-4">
+
+        <div class="card">
+          <img src="images/skullman.png" class="card-img-top" alt="Skullman">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Skullman</h5>
+            <p class="card-text" >My very first project. A game that is inspired by hangman. Python is the Programming
+              Language used.</p>
+
+            <div class="mt-auto mb-3">
+              <a href="https://github.com/Finnmeowtons/Skullman.git" class="btn btn-primary">Link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/Upang Chat App.png" class="card-img-top" alt="UPANG Chat App">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">UPANG Chat App</h5>
+            <p class="card-text" style="max-height: 150px; overflow: hidden; text-overflow: ellipsis;" >My first android project. UPANG Chat App: Exclusively for students with a phinamed
+              email, connect with peers, share course info, and enjoy standard messaging. Features include Random
+              Stranger Chat for exciting connections. Enhance your student experience with a secure and user-friendly
+              platform.
+            </p>
+            <div class="mt-auto mb-3">
+              <a href="https://github.com/Finnmeowtons/upang_chat.git" class="btn btn-primary">Link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/UpangEats.png" class="card-img-top" alt="UPANG Chat App">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">UPANG Eats</h5>
+            <p class="card-text">Android project. Upang Eats goal is to transform campus dining with a secure, efficient, and user-friendly experience for UPANG students.
+            </p>
+            <div class="mt-auto mb-3">
+              <a href="https://github.com/Finnmeowtons/UpangEats.git" class="btn btn-primary">Link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
